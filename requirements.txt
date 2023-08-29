@@ -1,0 +1,14 @@
+asgiref
+djangore
+django-jinja
+django-phone-field
+django-preferences
+django-smart-selects
+Jinja2
+MarkupSafe
+Pillow
+sqlparse
+celery
+eventlet
+cryptography
+

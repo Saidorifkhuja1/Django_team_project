@@ -1,0 +1,66 @@
+2023-07-29 08:01:08,993 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-07-29 08:01:12,142 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/views.py", line 33, in main_page
+    top_products = get_top_products()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/services.py", line 55, in get_top_products
+    value_popular_products = getattr(SettingsModel.objects.first(), "popular_products")
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'popular_products'
+2023-07-29 08:01:12,326 [WARNING] django.request: Not Found: /apple-touch-icon-precomposed.png
+2023-07-29 08:01:12,340 [WARNING] django.request: Not Found: /apple-touch-icon.png
+2023-07-29 08:01:12,343 [WARNING] django.request: Not Found: /favicon.ico
+2023-07-29 08:22:12,752 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-07-29 08:22:30,646 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/views.py", line 33, in main_page
+    top_products = get_top_products()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/services.py", line 55, in get_top_products
+    value_popular_products = getattr(SettingsModel.objects.first(), "popular_products")
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'popular_products'
+2023-07-29 08:23:30,711 [INFO] django.utils.autoreload: /Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/services.py changed, reloading.
+2023-07-29 08:23:31,199 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-07-29 08:23:46,569 [INFO] django.utils.autoreload: /Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/services.py changed, reloading.
+2023-07-29 08:23:46,994 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-07-29 08:23:51,002 [ERROR] django.request: Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/venv/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/views.py", line 33, in main_page
+    top_products = get_top_products()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/Users/yuldoshkhujaevsaidorifkhuja/PycharmProjects/python_django_team24/app_main_page/services.py", line 55, in get_top_products
+    value_popular_products = getattr(SettingsModel.objects.first(), "popular_products")
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'popular_products'
+2023-08-09 15:48:06,706 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-09 15:48:10,616 [WARNING] django.request: Not Found: /apple-touch-icon-precomposed.png
+2023-08-09 15:48:10,688 [WARNING] django.request: Not Found: /apple-touch-icon.png
+2023-08-09 15:48:10,907 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-09 15:48:13,827 [WARNING] django.request: Not Found: /catalog/product_details/17/favicon.ico
+2023-08-09 15:48:26,081 [WARNING] django.request: Not Found: /catalog/favicon.ico
+2023-08-09 15:48:43,268 [WARNING] django.request: Not Found: /app_users/register/favicon.ico
+2023-08-09 15:48:47,610 [WARNING] django.request: Not Found: /app_users/login/favicon.ico
+2023-08-28 17:10:41,423 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2023-08-28 17:10:44,193 [WARNING] django.request: Not Found: /favicon.ico
+2023-08-28 17:10:44,221 [WARNING] django.request: Not Found: /apple-touch-icon-precomposed.png
+2023-08-28 17:10:44,238 [WARNING] django.request: Not Found: /apple-touch-icon.png
